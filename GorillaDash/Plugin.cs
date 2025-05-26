@@ -14,7 +14,7 @@ namespace GorillaDash
     {
         private float dashCooldown = 1f;
         private float lastDashTime = -10f;
-        private float dashForce = 20f;
+        private float dashForce = 10f;
 
         private void OnEnable()
         {
